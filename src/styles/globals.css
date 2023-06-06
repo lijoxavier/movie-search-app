@@ -1,0 +1,64 @@
+@import url('./variables.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+
+    min-height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    background: url('../assets/Images/bg.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    /* background-size: 1548px; */
+    color: var(--primary-color);
+        font-weight: var(--fw-500);
+        line-height: 16px;
+   
+    
+}
+
+#root {
+    /* width: 100%; */
+    /* width: 1519px; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:var(--bg-color);
+    
+}
+
+
+.container-app {
+
+    /* width: 100%; */
+    min-height: 100vh;
+    /* padding: 0 20px; */
+    display: flex;
+    flex-direction: column;
+ 
+
+
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+ul {
+    list-style: none;
+}
+/* h3{
+    color: var(--color);
+} */
+
+@media (max-width:500px) {
+    #root{
+        width: 470px;
+    }
+    
+}

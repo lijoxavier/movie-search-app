@@ -1,0 +1,80 @@
+.footer-container {
+
+    margin-top: 90px;
+    background: rgba(0, 0, 0, 0.75);
+    position: relative;
+
+
+}
+
+.footer {
+    margin: 20px;
+    /* width: 1000px; */
+    /* min-height: 258px; */
+
+}
+
+.footer-container p {
+    padding: 29px;
+}
+
+.footer-container .lang {
+    padding: 10px;
+    margin-left: 29px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 140px;
+    border: 1px solid;
+    border-radius: 4px;
+
+}
+
+.footer-container .lang span {
+    background: url('../../assets/Images/globe.png') no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.footer-container .lang select {
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+
+}
+
+.footer-container .lang select option {
+    background: black;
+}
+
+
+
+.footer-container .nav-footer {
+    display: flex;
+
+
+}
+
+.footer-container .nav-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 36px;
+    padding-left: 29px;
+
+}
+
+.footer-container .social-links ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* .footer-container .nav-links {
+    width: 460px;
+} */
+.footer-container .nav-links ul li {
+    flex-basis: 160px;
+}

@@ -1,0 +1,15 @@
+:root{
+    --primary-heading: #E50914;
+    --bg-color:rgba(0, 0, 0, 0.7);
+    --primary-color:white;
+    --forgot:#B3B3B3;
+    --secondary-color: #757575;
+    --accent-color:#737373;
+    --input-color: #333333;
+
+
+    --fw-700:700;
+    --fw-400:400;
+    --fw-800:800;
+    --fw-500:500;
+}

@@ -1,0 +1,77 @@
+@import url('../../styles/variables.css');
+
+.login {
+    width: 420px;
+    height: 547px;
+    /* outline: 1px solid white; */
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.login .forgot {
+    color: var(--forgot);
+    text-align: end;
+    margin-right: 67px
+}
+
+.login .signup {
+    color: var(--primary-color);
+}
+
+.login input {
+    width: 314px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--input-color);
+    color:white;
+    margin-bottom: 16px;
+}
+
+.login button {
+    width: 314px;
+    height: 48px;
+    border-radius: 4px;
+    background: #E50914;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.55);
+    /* padding: 16px 0; */
+    border: none;
+    margin: 0 auto;
+    color: var(--primary-color);
+    margin-bottom: 14px;
+
+}
+
+.login .title {
+    padding: 38px 0 29px 68px;
+}
+
+.bottomlink {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 176px;
+    line-height: 18.75px;
+}
+
+.bottomlink .info {
+    color: var(--accent-color);
+    padding-right: 4px;
+}
+
+/* @media (max-width:500px){
+    .login{
+        width: 0;
+    }
+} */
+
+.error-display {
+    text-align: center;
+    padding-bottom: 10px;
+}
