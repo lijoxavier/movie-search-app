@@ -23,6 +23,11 @@ const Header = () => {
                         {mode?"dark_mode":"light_mode"}
                     </span>
             </button>
+                <button>
+                    <span className="material-symbols-outlined">
+                        person
+                    </span>
+                </button>
             <button className={mode?"logout dark":"logout light"} onClick={handlelogout}>
                     <span className="material-symbols-outlined">
                         logout
