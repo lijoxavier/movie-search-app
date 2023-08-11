@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import './login.css'
 import { AuthContext, useAuth } from '../../context/AuthContext'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 
 const Login = () => {
@@ -85,7 +85,7 @@ const Login = () => {
   return (
     <form onSubmit={handleSubmit}>
       <div className='login'>
-        <h3 className='title'>Sign In</h3>
+        <h3 className='title'>Login In</h3>
 
         <input type="text" placeholder='Email or Phone Number' name='user' onChange={handleInput} />
         {error.user && <p className='error-display'>{error.user}</p>}
@@ -95,7 +95,7 @@ const Login = () => {
         <a href="" className='forgot'>forgot password?</a>
         <div className="bottomlink">
           <p className='info'>New to debug media?</p>
-          <a href="" className='signup'>Sign up Now</a>
+          <Link to='/signin' className='signup'>Sign up Now</Link>
         </div>
 
       </div>
