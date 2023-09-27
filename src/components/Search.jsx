@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './header/header'
+import Header from './header/Header'
 import './search.css'
 import Login from './Login/Login'
 import Footer from './Footer/Footer'
