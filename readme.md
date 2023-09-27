@@ -23,7 +23,7 @@ This is a Movie Search Application using TMDB Movie API. User is authenticated u
 
 ## Live Demo
 
-[Demo](https://movie-search-app-two-steel.vercel.app/login)
+[Demo](https://movie-search-app-two-steel.vercel.app/)
 (Username:test
 Password:test
 )
