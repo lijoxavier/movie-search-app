@@ -39,13 +39,3 @@ Password:test
 ## Home
 
 ![movie-home](app-screen-home.png)
-
-
-
-````
-
-```
-
-```
-
-```
