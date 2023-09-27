@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './home.css'
 import ThorMovie from '../../assets/Images/thormovie.png'
-import { ToggleContext } from '../../context/toggleContext'
+import { ToggleContext } from '../../context/ToggleContext'
 import axios from 'axios'
 import { MovieListContext } from '../../context/MovieListContext'
 import { img_url, urls } from '../constants'
