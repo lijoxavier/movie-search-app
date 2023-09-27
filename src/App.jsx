@@ -2,7 +2,7 @@ import { useContext, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './styles/globals.css'
-import { ToggleContext } from './context/ToggleContext'
+import { ToggleContext } from './context/ToggleContext.jsx'
 import { Route, Routes } from 'react-router-dom'
 import Search from './components/Search'
 
