@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import './header.css'
-import { ToggleContext } from '../../context/toggleContext'
+import { ToggleContext } from '../../context/ToggleContext'
 import { useAuth } from '../../context/AuthContext'
 import { useNavigate } from 'react-router-dom'
 const Header = () => {
